@@ -3,7 +3,7 @@ services:
   web:
     image: tomcat:9.0.46
     volumes:
-      - ./dist/petclinic.war:/usr/local/tomcat/webapps/petclinic.war
+      - ./target/petclinic.war:/usr/local/tomcat/webapps/petclinic.war
     ports:
       - '8080:8080'
     environment:
