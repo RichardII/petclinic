@@ -1,0 +1,174 @@
+   0 pwd
+   1 bash
+   2 sh
+   3 clear
+   4 PermitRootLogin yes
+   5 apk add openssh
+   6 rc-update add sshd
+   7 rc-status
+   8 cd /etc/ssh/
+   9 ls -alrt
+  10 cat sshd_config 
+  11 vi sshd_config 
+  12 /etc/init.d/sshd start
+  13 clear
+  14 git
+  15 apk add git
+  16 cd /opt/petclinic/
+  17 git clone https://github.com/spring-petclinic/spring-framework-petclinic.git
+  18 cd ..
+  19 curl -i https://dlcdn.apache.org/maven/maven-3/3.8.3/binaries/apache-maven-3.8.3-bin.tar.gz -output-file apache-maven-3.8.3-bin.tar.gz
+  20 apk add curl
+  21 curl -i https://dlcdn.apache.org/maven/maven-3/3.8.3/binaries/apache-maven-3.8.3-bin.tar.gz -output-file apache-maven-3.8.3-bin.tar.gz
+  22 curl -i https://dlcdn.apache.org/maven/maven-3/3.8.3/binaries/apache-maven-3.8.3-bin.tar.gz -output ./apache-maven-3.8.3-bin.tar.gz
+  23 curl -i https://dlcdn.apache.org/maven/maven-3/3.8.3/binaries/apache-maven-3.8.3-bin.tar.gz -output apache-maven-3.8.3-bin.tar.gz
+  24 curl -i https://dlcdn.apache.org/maven/maven-3/3.8.3/binaries/apache-maven-3.8.3-bin.tar.gz -output /opt/apache-maven-3.8.3-bin.tar.gz
+  25 curl  https://dlcdn.apache.org/maven/maven-3/3.8.3/binaries/apache-maven-3.8.3-bin.tar.gz --output /opt/apache-maven-3.8.3-bin.tar.gz
+  26 curl  https://download.java.net/openjdk/jdk11/ri/openjdk-11+28_linux-x64_bin.tar.gz --output openjdk-11+28_linux-x64_bin.tar.gz 
+  27 tar -xvf openjdk-11\+28_linux-x64_bin.tar.gz 
+  28 tar -xvf apache-maven-3.8.3-bin.tar.gz 
+  29 mv -R /opt/petclinic/spring-framework-petclinic/ /opt/
+  30 mv /opt/petclinic/spring-framework-petclinic/ /opt/
+  31 mv /opt/spring-framework-petclinic/ /opt/petclinic
+  32 cler
+  33 clear
+  34 touch build-petclinic-console.sh
+  35 ./build-petclinic-console.sh 
+  36 clear
+  37 ./build-petclinic-console.sh 
+  38 /opt/build-petclinic-console.sh 
+  39 sh
+  40 ash
+  41 /opt/build-petclinic-console.sh 
+  42 java -version
+  43 java --version
+  44 echo $JAVA_HOME
+  45 /opt/build-petclinic-console.sh
+  46 echo $JAVA_HOME
+  47 /opt/build-petclinic-console.sh
+  48 echo $path
+  49 /opt/build-petclinic-console.sh
+  50 cd /opt/jdk-11/bin/java -version
+  51 /opt/jdk-11/bin/java -version
+  52 cd /opt/jdk-11/bin/
+  53 ./jar
+  54 clear
+  55 cd /opt/
+  56 curl https://cdn.azul.com/zulu/bin/zulu11.52.13-ca-jdk11.0.13-linux_musl_x64.tar.gz --output zulu11.52.13-ca-jdk11.0.13-linux_musl_x64.tar.gz 
+  57 tar -xvf zulu11.52.13-ca-jdk11.0.13-linux_musl_x64.tar.gz 
+  58 clear
+  59 /opt/build-petclinic-console.sh
+  60 java -version
+  61 /opt/build-petclinic-console.sh
+  62 clear
+  63 /opt/build-petclinic-console.sh
+  64 curl https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.55/bin/apache-tomcat-9.0.55.tar.gz --output apache-tomcat-9.0.55.tar.gz
+  65 tar -xvf apache-tomcat-9.0.55.tar.gz 
+  66 clear
+  67 cp build-petclinic-console.sh start-petclinic.sh
+  68 ./start-petclinic.sh 
+  69 ./build-petclinic-console.sh 
+  70 cat /etc/*-release
+  71 clear
+  72 apk add mysql
+  73 mysql
+  74 cd /var/lib/mysql/
+  75 ls -alrt
+  76 addgroup mysql mysql
+  77 rc-service mysql status
+  78 clear
+  79 cd /opt/
+  80 apk add --no-cache mysql
+  81 apk del mysql
+  82 apk add --no-cache mysql
+  83 startup.sh 
+  84 apk add --no-cache mysql
+  85 apk del mysql
+  86 apk add mysql
+  87 rc-service mariadb status
+  88 rc-service mysql  status
+  89 rc-service mariadb status
+  90 rc-service mariadb start
+  91 /etc/init.d/mariadb setup
+  92 rc-service mariadb start
+  93 rc-service mariadb status
+  94 mysql -u root
+  95 apk add mysql-client
+  96 mysql -u root
+  97 rc-service mysql start
+  98 /etc/init.d/mysql setup
+  99 apk del mysql-client
+ 100 apk del mysql
+ 101 clear
+ 102 mysql -u root 
+ 103 clear
+ 104 apk add mysql
+ 105 apk add mysql-client
+ 106 rc-service mysqldb status
+ 107 rc-service mysql status
+ 108 /etc/init.d/mysql setup
+ 109 clear
+ 110 /etc/init.d/mariadb setup
+ 111 rc-service mariadb start
+ 112 /etc/init.d/mariadb setup
+ 113 rc-service mariadb status
+ 114 rc-service mariadb start
+ 115 rc-update add mariadb default
+ 116 rc-service mariadb stop
+ 117 mysql -u root
+ 118 rc-service mariadb start
+ 119 mysql -u root
+ 120 mysqladmin -u root password petclinicdbadmin
+ 121 mysql -u root
+ 122 mysqladmin --port=3305  -u root password petclinicdbadmin
+ 123 mysql -u root
+ 124 ./build-petclinic-console.sh 
+ 125 clear
+ 126 ./build-petclinic-console.sh 
+ 127 mysql -u root
+ 128 netstat -tlnp
+ 129 ps -ef | grep mysql
+ 130 clear
+ 131 rc-service mariadb stop
+ 132 rc-service mariadb start
+ 133 netstat -tlnp
+ 134 mysql -u root
+ 135 lsof -n | grep 'mysql.*TCP'
+ 136 service mysqld stop/start
+ 137 service mariadb stop
+ 138 service mariadb start
+ 139 tail -f /var/log/mysql/mysqld.log
+ 140 cd /var/log/
+ 141 mysql -u root
+ 142 netstat -tlpn | grep mysql
+ 143 ss -tlpn | grep mysql
+ 144 service mariadb stop
+ 145 service mariadb start
+ 146 mysqladmin --port=3305  -u root
+ 147 mysql --port=3305  -u root
+ 148 cd /opt/
+ 149 ./build-petclinic-console.sh 
+ 150 netstat -ant | grep 3305
+ 151 netstat -tulpn | grep 3305
+ 152 service mariadb stop
+ 153 service mariadb start
+ 154 service mariadb stop
+ 155 service mariadb start
+ 156 mysql --port=3305  -u root
+ 157 service mariadb stop
+ 158 service mariadb start
+ 159 service mariadb stop
+ 160 service mariadb start
+ 161 clear
+ 162 ps -ef | grep tomcat
+ 163 kill -9 8408
+ 164 mysql --port=3305  -u petclinic
+ 165 mysql --port=3305  -u petclinic password 
+ 166 mysql --port=3305  -u petclinic password petclinic123
+ 167 clear
+ 168 cd /
+ 169 cd /opt/
+ 170 ./start-petclinic.sh 
+ 171 ./build-petclinic.sh 
+ 172 history
+ 173 history >> /opt/history.txt

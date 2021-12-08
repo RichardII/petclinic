@@ -1,0 +1,50 @@
+docker-compose
+docker-compose -f docker-compose.yml up -d
+
+docker images
+docker ps  -a
+docker  exec -it
+
+docker-compose -f docker-compose.yml down
+
+
+
+Dockerfile
+docker build -t mypetclinic .
+docker image ls
+docker run -d -p 8080:8080 mypetclinic
+
+suppression images
+docker rmi $(docker images -a -q)
+
+suppression container
+docker rm $(docker ps -a -f status=exited -q)
+
+
+mvn  install -D skipTests -f pom.xml
+
+
+
+https://start.spring.io/
+
+
+#docker-compose
+docker-compose -f docker-compose.yml up -d
+docker-compose -f docker-compose.yml down
+
+#docker images
+docker ps  -a
+docker  exec -it
+
+#Dockerfile
+docker build -t mypetclinic .
+docker image ls
+docker run -d -p 8080:8080 mypetclinic
+
+#suppression images
+docker rmi -f $(docker images -a -q)
+
+#suppression container
+docker rm -vf $(docker ps -a -q)
+
+mvn  install -D skipTests -f pom.xml
