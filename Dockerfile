@@ -4,7 +4,7 @@ LABEL maintainer="catalina"
 
 RUN mkdir -p /usr/local/tomcat/webapps/ROOT
 
-ADD ./dist/petclinic.war /usr/local/tomcat/webapps/
+ADD ./dist/petclinic/ /usr/local/tomcat/webapps/ROOT
 
 EXPOSE 8080
 
