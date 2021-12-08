@@ -2,9 +2,9 @@ FROM tomcat:9.0.46
 
 LABEL maintainer="catalina"
 
-RUN mkdir -p /usr/local/tomcat/webapps/petclinic
+RUN mkdir -p /usr/local/tomcat/webapps/ROOT
 
-COPY ./dist/petclinic.war /usr/local/tomcat/webapps/petclinic.war
+ADD ./dist/petclinic.war /usr/local/tomcat/webapps/
 
 EXPOSE 8080
 
