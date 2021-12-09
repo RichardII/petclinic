@@ -1,4 +1,4 @@
-FROM tomcat:9.0.30
+FROM karldocker25/tomcat
 
 LABEL maintainer="catalina"
 
