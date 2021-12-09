@@ -48,3 +48,10 @@ docker rmi -f $(docker images -a -q)
 docker rm -vf $(docker ps -a -q)
 
 mvn  install -D skipTests -f pom.xml
+
+--------------------
+
+docker tag tomcat:9.0.46 karldocker25/tomcat
+docker push karldocker25/tomcat
+
+docker push karldocker25/tomcat:9.0.46
