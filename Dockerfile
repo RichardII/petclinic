@@ -2,9 +2,9 @@ FROM karldocker25/tomcat:9.0.46
 
 LABEL maintainer="catalina"
 
-RUN mkdir -p /usr/local/tomcat/webapps/petclinic
+RUN mkdir -p /usr/local/tomcat/webapps/test
 
-COPY ./target/petclinic/ /usr/local/tomcat/webapps/ROOT/
+COPY ./target/petclinic/ /usr/local/tomcat/webapps/test/
 
 COPY ./target/petclinic.war /usr/local/tomcat/webapps/petclinic.war
 
