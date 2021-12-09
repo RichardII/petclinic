@@ -52,9 +52,6 @@ public class PetclinicInitializer extends AbstractDispatcherServletInitializer {
      */
     private static final String SPRING_PROFILE = "jpa";
 
-    public static void main(String[] args) {
-
-    }
 
     @Override
     protected WebApplicationContext createRootApplicationContext() {
