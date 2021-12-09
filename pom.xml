@@ -460,6 +460,12 @@
                 </configuration>
             </plugin>
 
+            <!-- https://maven.apache.org/plugins/maven-jar-plugin/  https://maven.apache.org/plugins/index.html  -->
+
+
+            <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-jar-plugin -->
+
+
         </plugins>
     </build>
 

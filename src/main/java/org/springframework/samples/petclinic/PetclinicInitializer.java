@@ -25,6 +25,7 @@ import javax.servlet.Filter;
 import javax.servlet.ServletContext;
 
 
+
 /**
  * In Servlet 3.0+ environments, this class replaces the traditional {@code web.xml}-based approach in order to configure the
  * {@link ServletContext} programmatically.
@@ -50,6 +51,10 @@ public class PetclinicInitializer extends AbstractDispatcherServletInitializer {
      * default jpa Spring profile.
      */
     private static final String SPRING_PROFILE = "jpa";
+
+    public static void main(String[] args) {
+
+    }
 
     @Override
     protected WebApplicationContext createRootApplicationContext() {
