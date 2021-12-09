@@ -1,7 +1,7 @@
 version: '3.3'
 services:
   web:
-    image: tomcat:9.0.46
+    image: tomcat:9.0.30
     volumes:
       - ./target/petclinic.war:/usr/local/tomcat/webapps/petclinic.war
     ports:
